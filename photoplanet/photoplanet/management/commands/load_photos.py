@@ -11,7 +11,7 @@ from photoplanet.models import Photo
 # TODO: refactor! this is duplicated in views.py
 LARGE_MEDIA_MAX_ID = 100000000000000000
 MEDIA_COUNT = 100
-MEDIA_TAG = 'donetsk'
+MEDIA_TAG = 'girls'
 
 
 class Command(BaseCommand):
