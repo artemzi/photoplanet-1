@@ -11,6 +11,11 @@ class FeedbackAdmin(admin.ModelAdmin):
     class Meta:
         model = Feedback
 
+class PhotoAdmin(admin.ModelAdmin):
+    list_display = ('__unicode__', 'username', 'like_count', 'vote_count', 'created_time')
+    list_display_links = ('__unicode__', 'username', 'like_count', 'vote_count')
+    class Meta:
+        model = Photo
 
-admin.site.register(Photo)
+admin.site.register(Photo, PhotoAdmin)
 admin.site.register(Feedback, FeedbackAdmin)
