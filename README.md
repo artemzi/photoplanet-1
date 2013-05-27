@@ -1,7 +1,8 @@
 This project is used as a learning project for the first class of [Learn Python in Donetsk](http://learnpython.dn.ua/) courses.
 ### TEST describe:
-    [App in heroku](http://photoplanet-test.herokuapp.com/) 
-    login work`s only with Vk ( i have no keys for instagram )
+- [App in heroku](http://photoplanet-test.herokuapp.com/) 
+- login work`s only with Vk ( i have no keys for instagram )
+  
     [admin interface](http://photoplanet-test.herokuapp.com/admin)
     if you need login and pass for admin ask me in email.
 
