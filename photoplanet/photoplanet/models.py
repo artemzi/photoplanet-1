@@ -13,6 +13,9 @@ class Photo(models.Model):
     like_count = models.IntegerField(null=True)
     vote_count = models.IntegerField(null=True)
 
+    def __unicode__(self):
+        return "Photo {}".format(self.photo_url)
+
 
 class Vote(models.Model):
     user = models.ForeignKey(User)
