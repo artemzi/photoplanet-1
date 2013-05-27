@@ -5,7 +5,7 @@ from feedback.models import Feedback
 
 
 class FeedbackAdmin(admin.ModelAdmin):
-    list_display = ('__unicode__', 'name', 'email', 'created_at', 'timestamp')
+    list_display = ('__unicode__', 'name', 'email', 'created_at')
     list_display_links = ('__unicode__', 'name', 'email')
     readonly_fields = ['created_at', ]
     class Meta:
