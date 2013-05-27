@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load photoplanet_extra %}
+
+{% block content %}
+    <div class="large-9 columns" role="content">
+
+      <article>
+
+        <div class="row">
+          <div class="large-4 columns hide-for-small"></div>
+          <div class="large-8 columns">
+          
+            <form method="POST">
+              {% csrf_token %}
+              {{ form.as_p }}
+              <input value="Send" type="submit" class="nice blue button">
+            </form>
+
+          </div>
+        </div>
+
+      </article>
+
+    </div>
+{% endblock content %}
