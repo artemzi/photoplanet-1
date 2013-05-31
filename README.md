@@ -8,7 +8,7 @@ This project is used as a learning project for the first class of [Learn Python 
 
 ## Description
 
-Photo Planet is a web application that aggregates photos from social media (Twitter, Instagram and others). An example of such application may be:
+Photo.Planet is a web application that aggregates photos from social media (Twitter, Instagram and others). An example of such application may be:
 
 - Photos taken in some city or region (Donetsk, Kyiv, Crimea etc.)
 - Photos that players and fans of your favorite sport team take (Shakhtar, Donbass HC, Barcelona etc.)
