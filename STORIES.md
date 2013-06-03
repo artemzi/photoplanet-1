@@ -1,4 +1,3 @@
-# Views
 
 - Main
 - Day
